@@ -29,7 +29,7 @@ import Footer from "./views/Footer/Footer"
 import Admin from "./views/Routes/Admin/Admin"
 
 
-function App() {
+function App() { 
 
     const [isLoggedIn, setIsLoggedIn] = useState(false)
     const setLogin = (arg) => {
